@@ -21,6 +21,20 @@ Announced 2023, April 04 Available. Released 2023, April 11
 | Fingerprint             | side-mounted                                                                   |
 | Sensors                 | Fingerprint (side-mounted), accelerometer, gyro, proximity, compass            |
 
+#### Working
+- [X] Flashing Custom ROMs
+- [X] ADB (+ sideload)
+- [X] Backup/Restore
+- [X] MTP/Fastbootd
+- [X] Decryption
+- [X] Touch
+- [X] OTG
+- [X] Flashing zip
+- [X] Vibrator
+
+##### Credits
+- TWRP team and everyone involved for their amazing work.
+
 ## Device picture
 
 ![OnePlus Nord CE3 Lite 5G](https://oasis.opstatics.com/content/dam/oasis/page/2023/global/product/larry/specs/product-black.png)
