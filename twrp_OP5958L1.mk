@@ -5,7 +5,11 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/oneplus/OP5958L1
+# Release name
+PRODUCT_RELEASE_NAME := OP5958L1
+
+# Configure full_base_telephony.mk
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/oneplus/OP5958L1/device.mk)
@@ -26,13 +30,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
-# Common path for device trees
-COMMON_PATH := device/$(PRODUCT_BRAND)/$(PRODUCT_DEVICE)
-
-# Device path for OEM device tree
-DEVICE_PATH := device/$(PRODUCT_BRAND)/$(PRODUCT_DEVICE)
-
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := OP5958,OP5958L1,CPH2467,CPH2465,CPH2513,CPH2515
+TARGET_OTA_ASSERT_DEVICE := OP5958L1,CPH2467,CPH2465,CPH2513,CPH2515
