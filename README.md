@@ -31,6 +31,7 @@ Announced 2023, April 04 Available. Released 2023, April 11
 - [X] OTG
 - [X] Flashing zip
 - [X] Vibrator
+- [X] And many more
 
 #### Credits
 - TWRP team and everyone involved for their amazing work.
