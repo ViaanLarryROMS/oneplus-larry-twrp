@@ -1,8 +1,8 @@
-#  TWRP Device Tree for Poco X5 5G (moonstone)
+### TWRP Device Tree for OnePlus Nord CE3 Lite 5G (larry)
 
-The Poco X5 5G (codenamed "moonstone") is a High-range smartphone from Xiaomi. It was announced released in 2023, February 07.
+2023, April 04 Available. Released 2023, April 11
 
-## Device specifications
+### Device specifications
 
 | Feature                 | Specification                                                                  |
 | :---------------------- | :------------------------------------------------------------------------------|
